@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 |
 | Aquí es donde puede registrar rutas API para su aplicación. Estos
 | las rutas son cargadas por el RouteServiceProvider y todas ellas
-| asignarse al grupo de middleware "api". ¡Haz algo genial!
+| asignarse al grupo de middleware "api".
 |
 */
 

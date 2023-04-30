@@ -11,7 +11,7 @@ use PhpParser\Node\Stmt\TryCatch;
 class ProductosController extends Controller
 {
     /**
-     * muestra todos los productos
+     * muestra todos los productos.
      */
     public function index()
     {
@@ -65,7 +65,7 @@ class ProductosController extends Controller
     }
 
     /**
-     * muestra los detalles de un producto en especifico
+     * muestra los detalles de un producto en especifico.
      */
     public function show($producto_id)
     {
