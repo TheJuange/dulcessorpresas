@@ -6,7 +6,7 @@ use App\Models\productos;
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
-use PhpParser\Node\Stmt\TryCatch;
+
 
 class ProductosController extends Controller
 {
