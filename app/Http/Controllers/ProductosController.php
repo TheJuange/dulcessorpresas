@@ -28,7 +28,7 @@ class ProductosController extends Controller
     }
 
     /**
-     * crea un nuevo producto
+     * crea un nuevo producto.
      */
     public function store(Request $request)
     {
