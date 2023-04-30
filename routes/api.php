@@ -18,7 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-
+/*
+----PRODUCTOS-----
+*/
 //muestra todos los productos
 Route::get('/productos',[ProductosController::class,'index']);
 //muestra un producto en especifico
@@ -29,3 +31,17 @@ Route::post('/newproducto',[ProductosController::class,'store']);
 Route::put('/producto/{producto_id}',[ProductosController::class,'update']);
 //elimina un producto
 Route::delete('producto/{producto_id}',[ProductosController::class,'destroy']);
+
+/*
+----CLIENTES----
+*/
+//muestra todos los clientes
+Route::get('/clientes',[ClientesController::class,'index']);
+//muestra un cliente en especifico
+Route::get('cliente/{cliente_id}',[ClientesController::class,'show']);
+//registrar un nuevo cliente
+Route::post('/newcliente',[ClientesController::class,'store']);
+//actualiza un cliente existente
+Route::put('/cliente/{cliente_id}',[ClientesController::class,'update']);
+//elimina un cliente
+Route::delete('cliente/{cliente_id}',[ClientesController::class,'destroy']);
