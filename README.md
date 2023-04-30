@@ -1,11 +1,4 @@
-<style>
-h1{
-width:100%;
-height:80px;
-display:flex;
-justify-content:center;
-</style>
-<h1> Api de Dulces sopresas Mj </h1>
+<h1 align="center"> Api de Dulces sopresas Mj </h1>
 
 Proyecto de laravel, en el cual se realiza el api para en negocio de dulces sorpresas.
 
