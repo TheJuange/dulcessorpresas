@@ -8,6 +8,11 @@ Proyecto de laravel, en el cual se realiza el api para en negocio de dulces sorp
 <ul>
     <li>
         <a>
+            id
+        </a>
+    </li>
+    <li>
+        <a>
             nombre
         </a>
     </li>
@@ -24,10 +29,33 @@ Proyecto de laravel, en el cual se realiza el api para en negocio de dulces sorp
 </ul>
 
 <h2>Productos</h2>
-titulo
-contenido
-precio
-ocasion
+<ul>
+    <li>
+        <a>
+            id
+        </a>
+    </li>
+    <li>
+        <a>
+            titulo
+        </a>
+    </li>
+    <li>
+        <a>
+            contenido
+        </a>
+    </li>
+    <li>
+        <a>
+            precio
+        </a>
+    </li>
+    <li>
+        <a>
+            ocasion
+        </a>
+    </li>
+</ul>
 
 <p>
 Para cada una de las tablas esta realizado los metodos GET, POST, PUT, DELETE
